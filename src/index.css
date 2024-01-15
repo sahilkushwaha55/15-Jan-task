@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  padding: 2rem;
+}
+
+.topbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.topbar__left{
+  display: flex;
+}
+
+.btn{
+  color: blue;
+  font-size: 1.2rem;
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn span{
+  padding: 0 .5rem;
+}
+
+.topbar__date{
+  margin-left: 10rem;
+}
+
+.timezone{
+  width: 100%;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid black;
+}
+
+.timezone p{
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.timezone__selector{
+  width: 100%;
+  padding: .5rem 1rem;
+}
+
+.task__container{
+  width: 100%;
+}
+
+.task__row{
+  width: 100%;
+  display: flex;
+  border-bottom: 1px solid black;
+}
+
+.task__date{
+  width: 5rem;
+  padding: 1rem;
+  background-color: #33333344;
+}
+
+.task__list{
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.task__day{
+  color: brown;
+  font-size: 1.1rem;
+  margin-bottom: .2rem;
+}
+
+.task__check{
+  margin-bottom: .5rem;
+  display: flex;
+  align-items: center;
+}
+
+.task__check input{
+  width: 1.2rem;
+  height: 1.2rem;
+  margin-right: .5rem;
+}
+
+.task__check label{
+  margin-right: .5rem;
+  font-size: .8rem;
+}
